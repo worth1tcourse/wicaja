@@ -774,21 +774,30 @@
         </div>
     </footer>
 
-    <!-- Floating Chatbot (Positioned Bottom Left Fixed for easy access) -->
+    <!-- Floating Chatbot (CTA Added) -->
     <a href="https://chatgpt.com/g/g-6925c15198e881919499d0fbbe6ce532-worth-it-assistant" target="_blank" 
-       class="fixed bottom-6 left-6 z-50 group flex items-center gap-2 animate-float">
-        <div class="w-14 h-14 bg-white rounded-full p-1 shadow-2xl border-4 border-yellow-400 overflow-hidden hover:scale-110 transition-transform cursor-pointer">
-            <!-- Updated to Avatar Image -->
+       class="fixed bottom-6 left-6 z-50 group flex items-end gap-2 animate-float">
+        <div class="w-16 h-16 bg-white rounded-full p-1 shadow-2xl border-4 border-yellow-400 overflow-hidden hover:scale-110 transition-transform cursor-pointer relative z-10">
+            <!-- Avatar Image -->
             <img src="https://lh3.googleusercontent.com/d/18DPyQrl_kmbcF0uj95KzwWeWVo2NF8h-=w200" alt="WIC Assistant Avatar" class="w-full h-full object-cover">
         </div>
-        <div class="bg-white text-emerald-900 px-3 py-1 rounded-lg shadow-lg text-xs font-bold opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
-            Tanya Assistant
+        <!-- CTA Bubble -->
+        <div class="bg-white text-emerald-900 px-4 py-2 rounded-xl rounded-bl-none shadow-xl border border-yellow-400 mb-4 transform transition-all origin-bottom-left">
+            <p class="text-xs font-bold whitespace-nowrap">Butuh Bantuan?</p>
+            <p class="text-[10px] text-slate-500 whitespace-nowrap">Tanya Assistant Disini ↗</p>
         </div>
     </a>
 
-    <!-- Floating WhatsApp -->
-    <a href="https://wa.me/6281359199251" target="_blank" class="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-lg z-50 hover:bg-green-600 hover:scale-110 transition-all animate-bounce">
-        <i data-lucide="phone" class="w-7 h-7"></i>
+    <!-- Floating WhatsApp (CTA Added) -->
+    <a href="https://wa.me/6281359199251" target="_blank" class="fixed bottom-6 right-6 z-50 group flex items-center gap-3 flex-row-reverse">
+        <div class="bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 hover:scale-110 transition-all animate-bounce relative z-10">
+            <i data-lucide="phone" class="w-7 h-7"></i>
+        </div>
+        <!-- CTA Bubble -->
+        <div class="bg-white text-emerald-900 px-4 py-2 rounded-xl rounded-br-none shadow-xl border border-green-500 mr-[-10px] pr-6 opacity-90 hover:opacity-100 transition-opacity">
+            <p class="text-xs font-bold whitespace-nowrap">Info Lebih Lanjut</p>
+            <p class="text-[10px] text-green-600 whitespace-nowrap">Chat Admin Kami</p>
+        </div>
     </a>
 
     <!-- Scripts -->
